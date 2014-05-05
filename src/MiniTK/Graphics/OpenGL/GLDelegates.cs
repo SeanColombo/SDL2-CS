@@ -369,7 +369,8 @@ namespace OpenTK.Graphics.OpenGL
             internal delegate void BlitFramebuffer(Int32 srcX0, Int32 srcY0, Int32 srcX1, Int32 srcY1, Int32 dstX0, Int32 dstY0, Int32 dstX1, Int32 dstY1, OpenTK.Graphics.OpenGL.ClearBufferMask mask, OpenTK.Graphics.OpenGL.BlitFramebufferFilter filter);
             internal static BlitFramebuffer glBlitFramebuffer;
             [System.Security.SuppressUnmanagedCodeSecurity()]
-            internal delegate void BlitFramebufferEXT(Int32 srcX0, Int32 srcY0, Int32 srcX1, Int32 srcY1, Int32 dstX0, Int32 dstY0, Int32 dstX1, Int32 dstY1, OpenTK.Graphics.OpenGL.ClearBufferMask mask, OpenTK.Graphics.OpenGL.ExtFramebufferBlit filter);
+            internal delegate void BlitFramebufferEXT_old(Int32 srcX0, Int32 srcY0, Int32 srcX1, Int32 srcY1, Int32 dstX0, Int32 dstY0, Int32 dstX1, Int32 dstY1, OpenTK.Graphics.OpenGL.ClearBufferMask mask, OpenTK.Graphics.OpenGL.ExtFramebufferBlit filter);
+            internal static BlitFramebufferEXT_old glBlitFramebufferEXT_old;
             [System.Security.SuppressUnmanagedCodeSecurity()]
             internal delegate void BlitFramebufferEXT(Int32 srcX0, Int32 srcY0, Int32 srcX1, Int32 srcY1, Int32 dstX0, Int32 dstY0, Int32 dstX1, Int32 dstY1, OpenTK.Graphics.OpenGL.ClearBufferMask mask, OpenTK.Graphics.OpenGL.BlitFramebufferFilter filter);
             internal static BlitFramebufferEXT glBlitFramebufferEXT;
